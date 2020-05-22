@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Build for ESP8266 
+      uses: arduino/actions/libraries/compile-examples@master
+      with:
+        fqbn: 'esp8266:esp8266:huzzah'        
+        sketch-paths: './'
+        libraries: |
+          - name: Adafruit_NeoPixel
