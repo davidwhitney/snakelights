@@ -1,4 +1,4 @@
-#include "src/SnakeLights.h"
+#include "SnakeLights.h"
 
 SnakeLights snakeLights;
 
