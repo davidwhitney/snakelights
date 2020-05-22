@@ -1,11 +1,9 @@
 # Arduino SnakeLights
 
-[CI BADGE HERE]
-
 This library drives the Snake-LED-Matrix.
 
-Download the latest version from the [release](https://github.com/davidwhitney/arduino-snakelights/releases) section. 
-Or use the builtin Library Manager in the Arduino IDE and search for "arduino-snakelights".
+Download the latest version from the [release](https://github.com/davidwhitney/snakelights/releases) section. 
+Or use the builtin Library Manager in the Arduino IDE and search for "snakelights".
 
 # SNAKE MODE
 
