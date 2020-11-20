@@ -71,6 +71,7 @@ int SnakeLights::adjust_for_snake_mode(int pixel)
   auto positionOnRowWhenNotSnaked = (pixel % 16);
   auto positionOnRowWhenSnaked = (15 - positionOnRowWhenNotSnaked);    
   auto snakePixelId = positionOnRowWhenSnaked + (currentRowNumber * 16);
+  return snakePixelId;
 }
 
 void SnakeLights::log(int pixel, int r, int g, int b)
